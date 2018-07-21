@@ -8,6 +8,7 @@ This is the fifth project in the Udacity Full Stack Web Developer Nanodegree. We
 Domain Name - http://www.pangarabbit.com/
 Public IP - 13.232.129.42
 Virtual Machine - Ubuntu 16.04.5 LTS
+SSH Port - 2200
 
 ## **Required Libraries and Dependencies**
 
@@ -18,15 +19,15 @@ Bootstrap
 Git
 Apache2
 Your favourite browser
-A requirements.txt file has been created for all package dependencies.
+A requirements.txt file has been created for all package dependencies
 
 ## **Remote Login**
-If you are using windows, I suggest installing Putty, which can be downloaded [here](https://www.putty.org/)
+If you are using windows, I suggest installing Putty, which can be downloaded [here](https://www.putty.org/).
 I can also recommend Remote Desktop Manager Free Edition for Windows and Mac [here](https://remotedesktopmanager.com/home/download) 
 which uses Putty under the hood for its SSH connections but makes managing multiple different remote connections to various
-operating system flavours a dream
+operating system flavours a dream.
 
-If you are using Linux, you will use SSH
+If you are using Linux, you will use SSH.
 
 ## **Project Walkthrough**
 
