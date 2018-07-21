@@ -51,8 +51,8 @@ operating system flavours a dream.
 - If it asks you to be root type ```sudo -i``` and run the command again without ```sudo```
 
 ## **Create a new user named Grader and give sudoer rights**
-```sudo adduser grader```
-```sudo nano /etc/sudoers.d/grader```
+- ```sudo adduser grader```
+- ```sudo nano /etc/sudoers.d/grader```
 - Add the following text ```grader ALL=(ALL:ALL) ALL```
 
 ## Set SSH Login using keys
@@ -80,7 +80,7 @@ chmod 644 .ssh/authorized keys
 - Click on: Open
 
 ## **Change the SSH port from 22 to 2200**
-```sudo nano /etc/ssh/sshd_config```
+- ```sudo nano /etc/ssh/sshd_config```
 - Change ```Port 22``` to 2200
 
 ## **Only allow key based authentication**
