@@ -1,0 +1,26 @@
+{% extends 'layout.html' %}
+
+  {% block content %}
+    <div class='container books'>
+      <div class="row">
+          {% for book in books %}
+              <div class="col-md-4">
+                  <img src="{{ book.image }}"
+                  alt="book-img" height="300" width="200" class="image-rounded" />
+                  <h4>Title: {{ book.title }}</h4>
+                  <p>Authors: {{ book.author }}</p>
+                  <p>Format: {{ book.format }}</p>
+                  <p>Genre: {{ book.genre }}</p>
+                  <p>Pages: {{ book.num_pages }}</p>
+                  <p>Publisher Name: {{ book.pub_name }}</p>
+                  <p>Publication Date: {{book.pub_date}}</p>
+                  <span class="label label-primary"><a href="{{ url_for('edit_book', book_id=book.id) }}" style="color: floralwhite"> Edit </a></span>
+                  <span class="label label-info"><a href="{{ url_for('delete_book', book_id=book.id) }}" style="color: floralwhite"> Delete </a></span>
+                  <br></br>
+                  <br></br>
+              </div>
+          {% endfor %}
+      </div>
+    </div>
+
+  {% endblock %}
