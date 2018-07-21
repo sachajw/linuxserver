@@ -130,7 +130,7 @@ sudo ufw enable
 - To quit ```\q```
 - I can recommend using netcat to test if your PostgreSQL port 5432 is open to connections 
 - Install netcat ```sudo apt-get install netcat```
-- Test the port like this ```netcat -vz 5432``
+- Test the port like this ```netcat -vz 5432```
 - Navigate to database_setup.py file and run ```python database_setup.py```
 
 ## **Deploy the Flask Application**
